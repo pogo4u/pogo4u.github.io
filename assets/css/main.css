@@ -1,12 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 
-/*
-	Dopetrope by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1810,67 +1804,6 @@ input, select, textarea {
 					top: 0;
 				}
 
-/* Dates */
-
-	ul.dates {
-		list-style: none;
-		padding-left: 0;
-	}
-
-		ul.dates li {
-			position: relative;
-			border-top: solid 1px #ddd;
-			padding: 1.3em 0 1.3em 6.75em;
-		}
-
-		ul.dates .date {
-			display: block;
-			position: absolute;
-			left: 0;
-			top: 1.3em;
-			background-color: #d52349;
-			height: 3.5em;
-			text-align: center;
-			color: #fff;
-			line-height: 1em;
-			border-top-left-radius: 5px;
-			border-bottom-left-radius: 5px;
-			padding: 0.5em 0.75em 0 1em;
-		}
-
-			ul.dates .date:after {
-				content: '';
-				position: absolute;
-				bottom: 0;
-				right: -1.2em;
-				border-left: solid 1.25em #d52349;
-				border-top: solid 1.8em transparent;
-				border-bottom: solid 1.8em transparent;
-			}
-
-			ul.dates .date strong {
-				display: block;
-				font-size: 1.75em;
-				padding-top: 0.15em;
-			}
-
-		ul.dates h3 {
-			font-size: 1.1em;
-		}
-
-		ul.dates p {
-			margin: 0;
-		}
-
-		ul.dates li:first-child {
-			border-top: 0;
-			padding-top: 0;
-		}
-
-			ul.dates li:first-child .date {
-				top: 0;
-			}
-
 /* Divided */
 
 	ul.divided {
@@ -1951,12 +1884,14 @@ input, select, textarea {
 						background: #d4477b;
 					}
 
-				ul.social li a.fa-linkedin {
-					background: #006599;
+				ul.social li a.fa-instagram {
+					background-image: url(images/instacolor.png);
+					background-size: 100px 60px;
 				}
 
-					ul.social li a.fa-linkedin:hover {
-						background: #1075a9;
+					ul.social li a.fa-instagram:hover {
+						background-image: url(images/instacolor.png);
+						background-size: 90px 70px;
 					}
 
 				ul.social li a.fa-tumblr {
@@ -2078,7 +2013,7 @@ input, select, textarea {
 				font-style: italic;
 				margin: 0 0.35em 0 0.35em;
 			}
-			
+
 				#nav > ul > li > ul {
 					display: none;
 				}
@@ -2272,6 +2207,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
+		text-align: center;
 		position: relative;
 		color: #858484;
 		padding: 4em 0;
